@@ -1,0 +1,19 @@
+
+
+.header_fluid{
+    background: #0a9f7e;
+}
+.footer_fluid{
+    background: #24a891;
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
+}
+.header_fluid, .footer_fluid, .body_fluid{
+    color: #fff;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.body_fluid{
+    height: 82.6%;
+}
+

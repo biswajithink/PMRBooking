@@ -1,1 +1,126 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body {
+    height: 100%;
+}
+.bodyBack{
+    background: url('./assets/img/background.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #464646;
+}
+.homeBody{
+    background: #666;
+}
+a, a:hover, a:focus, a.activated{
+    text-decoration: none !important;
+}
+.textUpper{
+    text-transform: uppercase;
+}
+
+.body_fluid login, .body_fluid signup{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.body_fluid .container.bodyContainer{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.body_fluid .container form{
+    margin: 15px 0;
+}
+
+.body_fluid router-outlate{
+    height: 0px;
+}
+
+h2.textUpper{
+    margin-bottom: 30px;
+}
+
+.bodyCol {
+    background: rgba(3, 100, 78, 0.8);
+    border-radius: 10px;
+    padding: 40px;
+}
+.bodyContainer button{
+    margin: 35px auto;
+    width: 180px;
+    display: block;
+    background: #5dc8b8;
+    border: none;
+    border-radius: 6px;
+    height: 45px;
+    font-size: 18px;
+    color: #252525;
+    text-transform: uppercase;
+}
+.bodyContainer .labelDiv label{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: normal;    
+}
+.bodyContainer .labelDiv label a, .bodyContainer p a{
+    margin-left: 10px;
+    color: #6dcdff;
+}
+.bodyContainer p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.bodyContainer .form-group input{
+    height: 40px;
+    line-height: 40px;
+}
+.nameInputDiv input{
+    width: 47%;
+    float: left;
+}
+.nameInputDiv input:last-child{
+    float: right;
+}
+
+/* Home Page */
+.homeBody{
+    background: #666;
+    height: auto;
+}
+.homeBody .body_fluid .container{
+    display: block;
+}
+
+.selectContainer{
+    margin: 40px auto;
+}
+.toggleDiv{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8) inset;
+}
+
+.toggleBox{    
+    color: #151515;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+    width: 100%;
+    height: 180px;
+    text-align:center;
+    display: table;
+}
+.toggleBox span{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media screen and (max-width:600px){
+    .toggleDiv{
+        width: 50%;
+        margin: 20px auto;
+        float: none;
+        margin-bottom: 30px;
+    }
+}
